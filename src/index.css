@@ -1,0 +1,307 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@media only screen and (max-width: 600px) {
+  .content {
+    width: 100%;
+    padding: 10px;
+  }
+}
+/* Celulares menores */
+@media (min-width: 576px)and (max-width: 767.98px) {
+  .content {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+/* Celulares e tablets */
+@media (min-width: 768px)and (max-width: 991.98px) {
+  .content {
+    width: 100%;
+    padding: 10px;
+  }
+}
+/* Tablets */
+@media (min-width: 992px)and (max-width: 1199.98px) {
+  .content {
+    width: 100%;
+    padding: 10px;
+  }
+}
+/* Notebooks */
+@media (min-width: 1200px)and (max-width: 1399.98px) {
+  .content {
+    width: 100%;
+    padding: 10px;
+  }
+}
+/* Desktop */
+@media (min-width: 1400px) {
+  .content {
+    width: 100%;
+    padding: 10px;
+  }
+}
+.App {
+  
+  margin: 0 auto; 
+  max-width: 100vw;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+  background-color: #B1F9B1;
+  color: #3D3D3D;
+  top: 0;
+  position:fixed;
+  max-width: 100%;
+  height: 70px;
+}
+
+.barBtn {
+  display: flex;
+  justify-content: flex-end;
+
+  
+}
+.App-logo {
+  height: 100px; 
+  width: auto; 
+  pointer-events: none;
+}
+
+/* Telas */
+.tela {
+  height: 100vh;
+  width: auto;
+}
+
+#tela-inicio{
+  background-image: url('./background1.png');
+  background-size: cover;
+  background-position: center;
+  top: 70px;
+  padding-top: 40px;
+  
+}
+
+#tela-sobre {
+  padding-top: 5%;
+  background-color: #1F5923;
+  color: #F8F4ED;
+}
+#tela-formulario{
+  padding-top: 5%;
+  background-size: cover;
+  background-color: #F8F4ED;
+  height: 200vh;
+}
+
+
+/* Títulos */
+#titulo {
+  text-align: left;
+  position:relative;
+  color: #1F5923;
+  font-family: sans-serif;
+  font-size: 66px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 280px;
+  padding-right: 199px;
+  width: calc(100% - 320px);
+}
+#titulo-sobre{
+  font-size: 60px;
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 35px;
+  position:relative;
+}
+
+#titulo-formulario{
+  color: #1F5923;
+  font-size: 60px;
+  color: #F8F4ED;
+  padding-top: 35px;;
+}
+
+/* Textos */
+
+#texto-inicio{
+  font-size: 60px;
+  color: #3D3D3D;
+  text-align: left;
+  padding-left: 55px;
+  padding-right: 160px;
+  top: 0px;
+  font-family: garamond;
+  width: calc(100% - 230px);
+  position:absolute;
+  top: 350px; 
+  left: 20px;
+  
+}
+#texto-sobre{
+  color: #F8F4ED;
+  padding-top: 40px;
+  font-size: 23px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+}
+#texto-formulario{
+  font-size: 22px;
+  color: #F8F4ED;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family:sans-serif;
+  color: #F8F4ED;
+}
+
+
+/* Box */
+#tela1-box {
+  background-color: #F8F4ED;
+  width: 44%;
+  height: 100vh;
+  position:absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 40px;
+  
+}
+
+.proposito-box,
+.como-funciona-box,
+.oque-diferencia-box {
+  margin: 0 20px; 
+}
+
+#tela3-box{
+  background-color: #1F5923;
+  border-radius: 20px;
+  width: 100vh;
+  max-width: 600px;
+  height: 40vh;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  padding-bottom: 10vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+}
+
+#tela3-box-forms {
+  background-color: #B1F9B1; 
+  border-radius: 20px;
+  width: 100vh;
+  max-width: 600px;
+  height: 130vh;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  padding-bottom: 30vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+}
+#tela3-box-forms form {
+  width: 100%;
+  max-width: 400px; 
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 200px;
+  font-family: sans-serif; 
+  color: #3D3D3D;
+}
+
+
+
+#tela3-box-forms form label {
+  display: block;
+  margin-bottom: 10px;
+}
+#tela3-box-forms form input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+#tela3-box-forms form input[type="number"]{
+  width: 25%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#tela3-box-forms form select {
+  width: 35%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#objetivos {
+  margin-bottom: 25px;
+}
+#form-btn {
+  background-color: #1F5923; 
+  border: none;
+  color: #B1F9B1;
+  padding: 15px 32px; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px; 
+  cursor: pointer;
+  margin-top: 50px;
+  
+}
+
+#form-btn:hover {
+  background-color: #163f18;
+}
+
+
